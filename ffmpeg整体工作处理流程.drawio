@@ -1,9 +1,54 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="t6Tq0TtrQYxQFjc1HpRb">
-    <mxGraphModel>
+    <mxGraphModel dx="1674" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uV0adR9W6PXAgVTF04Yn-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uV0adR9W6PXAgVTF04Yn-1" target="uV0adR9W6PXAgVTF04Yn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uV0adR9W6PXAgVTF04Yn-1" value="读取文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uV0adR9W6PXAgVTF04Yn-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uV0adR9W6PXAgVTF04Yn-2" target="uV0adR9W6PXAgVTF04Yn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uV0adR9W6PXAgVTF04Yn-2" value="解封装" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="140" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uV0adR9W6PXAgVTF04Yn-4" value="解码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="140" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uV0adR9W6PXAgVTF04Yn-7" value="转换参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="190" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uV0adR9W6PXAgVTF04Yn-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uV0adR9W6PXAgVTF04Yn-9" target="uV0adR9W6PXAgVTF04Yn-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uV0adR9W6PXAgVTF04Yn-9" value="新编码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="240" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uV0adR9W6PXAgVTF04Yn-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uV0adR9W6PXAgVTF04Yn-11" target="uV0adR9W6PXAgVTF04Yn-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uV0adR9W6PXAgVTF04Yn-11" value="封装" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="240" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uV0adR9W6PXAgVTF04Yn-13" value="写入文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uV0adR9W6PXAgVTF04Yn-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="uV0adR9W6PXAgVTF04Yn-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="160" as="sourcePoint" />
+            <mxPoint x="520" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uV0adR9W6PXAgVTF04Yn-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uV0adR9W6PXAgVTF04Yn-7" target="uV0adR9W6PXAgVTF04Yn-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="300" as="sourcePoint" />
+            <mxPoint x="560" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
